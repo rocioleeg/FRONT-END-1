@@ -1,0 +1,66 @@
+h4 {
+    background-color: #1CD1B0;
+    color: black;
+}
+
+h1 {
+    background-color: #00669F;
+    color:black;
+}
+p stan {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+ .batman1{
+    background-image:url('../img/FONDOBATMAN.png');
+    background-repeat: no-repeat;
+    display:inline-block;
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+     }
+   
+
+  .harley {
+      background-image: url('../img/FONDOHARLEY.png');
+      display:inline-block;
+      background-repeat: no-repeat;
+      width: 300px;
+      height: 500px;
+      margin: 10px;
+    }
+
+  .batman2 {
+    background-image:url('../img/FONDOBATMAN.png');
+    background-repeat: no-repeat;
+    display:inline-block;
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    }
+ section article p {
+   text-align: center;
+   position: relative;
+   top: 120px;
+ }
+
+  section article img {
+    text-align: center;
+    position: relative;
+    top:120px;
+    border-radius: 1000px;
+  }
+
+
+  footer {
+    background-color: #00669F;
+    color:white;
+}

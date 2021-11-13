@@ -1,0 +1,89 @@
+.navegador {
+    color:white;
+    background-color:#222222;
+}
+.hola {
+    position:relative;
+}
+header {
+    background-color: #F0A83E;
+
+}
+ header ul li {
+    display: inline;
+    float: inline;
+
+}
+.fondo {
+    background-image:url('../img/imgprincipal.png');
+    width:100%;  /*1025px*/
+    Height:409px;
+    text-align: center;
+   
+} 
+
+.menu {
+    color:white;
+    text-decoration:none;
+    position: relative;
+    left:1000px;
+    bottom: 40px;
+    
+}
+
+.cartel {
+    background-color: white;
+    color: black;
+    position:relative;
+    display:inline-block;
+    z-index: initial;
+    font-size:30px;
+    padding: 9px;
+}
+.descuentos {
+position:absolute;
+left:750px;
+bottom: 220px;
+font-size:16px;
+}
+
+.destacados {
+    text-align: center;
+    color: #3C2313;
+    font-size:40px;
+
+
+}
+.comederos {
+    position:absolute;
+    left:790px;
+    bottom: 180px;
+    text-decoration: none;
+    color:white;
+    background-color: #F0A83E;
+    padding:10px;
+}
+.mininav {
+    color:#666666;
+    text-align:center;
+}
+
+.churrasquito {
+    position:relative;
+    left: 10px;
+   
+
+}
+
+.comedero {
+    position: relative;
+    left:300px;
+    bottom: 375px;
+}
+
+.huesito {
+    position: relative;
+    left: 600px;
+    bottom: 750px;
+}
+
