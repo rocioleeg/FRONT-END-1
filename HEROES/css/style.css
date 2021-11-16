@@ -1,6 +1,7 @@
-h4 {
+header div.sup {
     background-color: #1CD1B0;
     color: black;
+    padding: 2px 0px 2px 10px;
 }
 
 h1 {
@@ -11,20 +12,30 @@ p stan {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 25px;
+
 }
+
+
 
 section {
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
+  justify-content: space-evenly;
 }
 
+section article {
+  margin:100px 0px;
+  width:300px;
+  background-color:  #F3F3F3;
+  position:relative;
+
+}
  .batman1{
     background-image:url('../img/FONDOBATMAN.png');
     background-repeat: no-repeat;
     display:inline-block;
     width: 300px;
-    height: 500px;
+    height: 600px;
     margin: 10px;
      }
    
@@ -34,7 +45,7 @@ section {
       display:inline-block;
       background-repeat: no-repeat;
       width: 300px;
-      height: 500px;
+      height: 600px;
       margin: 10px;
     }
 
@@ -43,24 +54,47 @@ section {
     background-repeat: no-repeat;
     display:inline-block;
     width: 300px;
-    height: 500px;
+    height: 600px;
     margin: 10px;
     }
- section article p {
-   text-align: center;
-   position: relative;
-   top: 120px;
+ section article p,h4 {
+  text-align: center;
+  position: relative;
+  top: 150px;
+ }
+
+ article h4 {
+  font-size:24px;
+  margin-top:130px;
+  text-transform: uppercase;
  }
 
   section article img {
     text-align: center;
-    position: relative;
-    top:120px;
-    border-radius: 1000px;
+    position: absolute;
+    border-radius: 50%;
+    width:125px;
+    top: 130px;
+    left:90px;
+  }
+  article p {
+    text-align: left;
+    padding:15px;
+    position:absolute;
+    
+  }
+  article button {
+    color:white;
+    padding:15px 35px;
+    background-color: #00669F;
+    border: none;
+    margin-top:50px;
+    margin-bottom: 30px;
   }
 
 
   footer {
     background-color: #00669F;
     color:white;
+   
 }
